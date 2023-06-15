@@ -1,0 +1,14 @@
+POST http://104.211.219.98/train/register
+Content-Type: application/json
+
+{
+  "rollNumber": "789456"
+}
+
+---
+
+GET http://104.211.219.98/train/trains
+
+---
+
+GET http://104.211.219.98/train/trains/2344
